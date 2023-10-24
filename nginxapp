@@ -1,4 +1,7 @@
-apiVersion
-kind
-metadata
-spec
+apiVersion: v1
+kind: pod
+metadata: nginxpod
+spec:
+  conatiners:
+  -  name:nginxpod
+     image:nginx
